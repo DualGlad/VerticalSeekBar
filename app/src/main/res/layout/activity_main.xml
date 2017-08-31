@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <TextView
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:text="@string/app_name" />
+
+    <View
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="5" />
+
+    <ru.dualglad.verticalseekbar.VerticalSeekBar
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="85"
+        android:max="4"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:progress="1"
+        android:progressDrawable="@drawable/vertical_seek_bar"
+        android:thumb="@drawable/vertical_seek_bar_thumb" />
+
+    <View
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="5" />
+
+</LinearLayout>
